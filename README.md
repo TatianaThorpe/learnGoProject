@@ -1,1 +1,2 @@
-# Dummy record generator
+# Dummy record generator for Go
+
