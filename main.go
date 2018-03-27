@@ -3,20 +3,21 @@ package main
 import (
 	"fmt"
 	"github.com/TatianaThorpe/learnGoProject/dataGenerator"
+	//"go/types"
 )
 
 func main() {
 
 	var number int
 	fmt.Print("Please enter the number of records you require: ")
-	fmt.Scan(&number)
+	fmt.Scanf("%d", &number)
 	i := 0
 
 	for i < number {
 		i++
-		println("RECORD", i)
+		println("\n---------- RECORD", i,"----------")
 		dataGenerator.Dummy()
 	}
 
-	fmt.Println("RECORDS GENERATED:", number)
+	fmt.Println("\nRECORDS GENERATED:", number)
 }

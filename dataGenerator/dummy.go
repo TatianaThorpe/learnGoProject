@@ -20,5 +20,4 @@ func Dummy() {
 	fmt.Println("ADDRESS:", fake.StreetAddress(), fake.City(), fake.PostCode(), fake.State(), fake.Country())
 	fmt.Println("PHONE NUMBER:", fake.PhoneNumber())
 	fmt.Println("MOBILE:", fake.CellPhoneNumber())
-	fmt.Println("-----------------------", "\n")
 }
