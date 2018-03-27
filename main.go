@@ -31,10 +31,10 @@ func dummy() {
 	title := strings.ToUpper(fake.NamePrefix())
 	name := strings.ToUpper(fake.Name())
 
-	println("NAME:", title, name)
-	println("EMAIL:", fake.Email())
-	println("ADDRESS:", fake.StreetAddress(), fake.City(), fake.PostCode(), fake.State(), fake.Country())
-	println("PHONE NUMBER:", fake.PhoneNumber())
-	println("MOBILE:", fake.CellPhoneNumber())
-	println("-----------------------","\n")
+	fmt.Println("NAME:", title, name)
+	fmt.Println("EMAIL:", fake.Email())
+	fmt.Println("ADDRESS:", fake.StreetAddress(), fake.City(), fake.PostCode(), fake.State(), fake.Country())
+	fmt.Println("PHONE NUMBER:", fake.PhoneNumber())
+	fmt.Println("MOBILE:", fake.CellPhoneNumber())
+	fmt.Println("-----------------------", "\n")
 }
